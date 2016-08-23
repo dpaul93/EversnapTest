@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4850CF461D6CE06900AA8AD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4850CF451D6CE06900AA8AD3 /* main.m */; };
+		4850CF491D6CE06900AA8AD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4850CF481D6CE06900AA8AD3 /* AppDelegate.m */; };
+		4850CF4F1D6CE06900AA8AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4850CF4D1D6CE06900AA8AD3 /* Main.storyboard */; };
+		4850CF511D6CE06900AA8AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4850CF501D6CE06900AA8AD3 /* Assets.xcassets */; };
+		4850CF541D6CE06900AA8AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4850CF521D6CE06900AA8AD3 /* LaunchScreen.storyboard */; };
+		E3A4838ADCA5AC120A528BF0 /* libPods-EversnapTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E3F012AA7A21036D89D908 /* libPods-EversnapTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		323C30F672543E0D2F16FD0A /* Pods-EversnapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EversnapTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EversnapTest/Pods-EversnapTest.release.xcconfig"; sourceTree = "<group>"; };
+		4850CF411D6CE06900AA8AD3 /* EversnapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EversnapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4850CF451D6CE06900AA8AD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4850CF471D6CE06900AA8AD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4850CF481D6CE06900AA8AD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4850CF4E1D6CE06900AA8AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4850CF501D6CE06900AA8AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4850CF531D6CE06900AA8AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4850CF551D6CE06900AA8AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E3F012AA7A21036D89D908 /* libPods-EversnapTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EversnapTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6117C1015CA73E9015E25CE /* Pods-EversnapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EversnapTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EversnapTest/Pods-EversnapTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4850CF3E1D6CE06900AA8AD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A4838ADCA5AC120A528BF0 /* libPods-EversnapTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4850CF381D6CE06900AA8AD3 = {
+			isa = PBXGroup;
+			children = (
+				4850CF431D6CE06900AA8AD3 /* EversnapTest */,
+				4850CF421D6CE06900AA8AD3 /* Products */,
+				4C6D3916188961CC122D4BA7 /* Pods */,
+				AE5014D4B5D82BBB3F5B4E7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4850CF421D6CE06900AA8AD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4850CF411D6CE06900AA8AD3 /* EversnapTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4850CF431D6CE06900AA8AD3 /* EversnapTest */ = {
+			isa = PBXGroup;
+			children = (
+				4850CF471D6CE06900AA8AD3 /* AppDelegate.h */,
+				4850CF481D6CE06900AA8AD3 /* AppDelegate.m */,
+				4850CF4D1D6CE06900AA8AD3 /* Main.storyboard */,
+				4850CF501D6CE06900AA8AD3 /* Assets.xcassets */,
+				4850CF521D6CE06900AA8AD3 /* LaunchScreen.storyboard */,
+				4850CF551D6CE06900AA8AD3 /* Info.plist */,
+				4850CF441D6CE06900AA8AD3 /* Supporting Files */,
+			);
+			path = EversnapTest;
+			sourceTree = "<group>";
+		};
+		4850CF441D6CE06900AA8AD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4850CF451D6CE06900AA8AD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C6D3916188961CC122D4BA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6117C1015CA73E9015E25CE /* Pods-EversnapTest.debug.xcconfig */,
+				323C30F672543E0D2F16FD0A /* Pods-EversnapTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE5014D4B5D82BBB3F5B4E7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E3F012AA7A21036D89D908 /* libPods-EversnapTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4850CF401D6CE06900AA8AD3 /* EversnapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4850CF581D6CE06900AA8AD3 /* Build configuration list for PBXNativeTarget "EversnapTest" */;
+			buildPhases = (
+				D283334B1D0D8F4BCFB4E4E0 /* Check Pods Manifest.lock */,
+				4850CF3D1D6CE06900AA8AD3 /* Sources */,
+				4850CF3E1D6CE06900AA8AD3 /* Frameworks */,
+				4850CF3F1D6CE06900AA8AD3 /* Resources */,
+				36260D99FE28814F916697D5 /* Embed Pods Frameworks */,
+				127FF3A2EBC926571E5A378E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EversnapTest;
+			productName = EversnapTest;
+			productReference = 4850CF411D6CE06900AA8AD3 /* EversnapTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4850CF391D6CE06900AA8AD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pavlo Deynega";
+				TargetAttributes = {
+					4850CF401D6CE06900AA8AD3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4850CF3C1D6CE06900AA8AD3 /* Build configuration list for PBXProject "EversnapTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4850CF381D6CE06900AA8AD3;
+			productRefGroup = 4850CF421D6CE06900AA8AD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4850CF401D6CE06900AA8AD3 /* EversnapTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4850CF3F1D6CE06900AA8AD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4850CF541D6CE06900AA8AD3 /* LaunchScreen.storyboard in Resources */,
+				4850CF511D6CE06900AA8AD3 /* Assets.xcassets in Resources */,
+				4850CF4F1D6CE06900AA8AD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		127FF3A2EBC926571E5A378E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EversnapTest/Pods-EversnapTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36260D99FE28814F916697D5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EversnapTest/Pods-EversnapTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D283334B1D0D8F4BCFB4E4E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4850CF3D1D6CE06900AA8AD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4850CF491D6CE06900AA8AD3 /* AppDelegate.m in Sources */,
+				4850CF461D6CE06900AA8AD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4850CF4D1D6CE06900AA8AD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4850CF4E1D6CE06900AA8AD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4850CF521D6CE06900AA8AD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4850CF531D6CE06900AA8AD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4850CF561D6CE06900AA8AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4850CF571D6CE06900AA8AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4850CF591D6CE06900AA8AD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6117C1015CA73E9015E25CE /* Pods-EversnapTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EversnapTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EversnapTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4850CF5A1D6CE06900AA8AD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323C30F672543E0D2F16FD0A /* Pods-EversnapTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EversnapTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.EversnapTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4850CF3C1D6CE06900AA8AD3 /* Build configuration list for PBXProject "EversnapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4850CF561D6CE06900AA8AD3 /* Debug */,
+				4850CF571D6CE06900AA8AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4850CF581D6CE06900AA8AD3 /* Build configuration list for PBXNativeTarget "EversnapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4850CF591D6CE06900AA8AD3 /* Debug */,
+				4850CF5A1D6CE06900AA8AD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4850CF391D6CE06900AA8AD3 /* Project object */;
+}
