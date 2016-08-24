@@ -10,6 +10,6 @@
 
 @interface DTOWrapper : NSObject
 
-+(BaseDTO*)getPhotosWithBirthdayTagPage:(NSInteger)page;
++(BaseDTO*)getPhotosWithBirthdayTagPage:(NSInteger)page perPage:(NSInteger)perPage;
 
 @end

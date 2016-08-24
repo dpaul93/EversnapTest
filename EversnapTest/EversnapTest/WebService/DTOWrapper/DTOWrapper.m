@@ -13,7 +13,7 @@ NSString * const kFlickrAPIKey = @"c472fb63bccdde81de67b841f1a00d70";
 
 @implementation DTOWrapper
 
-+(BaseDTO *)getPhotosWithBirthdayTagPage:(NSInteger)page {
++(BaseDTO *)getPhotosWithBirthdayTagPage:(NSInteger)page perPage:(NSInteger)perPage {
     BaseDTO *baseDTO = [BaseDTO initWithBlock:^(BaseDTO *dto) {
         dto.requestType = BaseDTORequestGET;
         dto.urlEndpoint = @"rest/";
@@ -24,6 +24,7 @@ NSString * const kFlickrAPIKey = @"c472fb63bccdde81de67b841f1a00d70";
         [dto addValue:@(page) key:@"page"];
         [dto addValue:@"json" key:@"format"];
         [dto addValue:@(1) key:@"nojsoncallback"];
+        [dto addValue:@(perPage) key:@"per_page"];
     }];
     
     return baseDTO;
