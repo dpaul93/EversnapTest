@@ -21,9 +21,7 @@
 		48CD08621D6CE1C400C5F6A6 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08501D6CE1C400C5F6A6 /* WebService.m */; };
 		48CD08631D6CE1C400C5F6A6 /* WebServiceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08521D6CE1C400C5F6A6 /* WebServiceConstants.m */; };
 		48CD08641D6CE1C400C5F6A6 /* DTOWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08551D6CE1C400C5F6A6 /* DTOWrapper.m */; };
-		48CD08711D6CE20500C5F6A6 /* TestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD086B1D6CE20500C5F6A6 /* TestDTO.m */; };
 		48CD08761D6CE21400C5F6A6 /* FlickrWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08751D6CE21400C5F6A6 /* FlickrWebService.m */; };
-		48CD08791D6CE22700C5F6A6 /* FlickrDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08781D6CE22700C5F6A6 /* FlickrDTO.m */; };
 		48CD087C1D6CE23300C5F6A6 /* FlickrResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD087B1D6CE23300C5F6A6 /* FlickrResponseInfo.m */; };
 		48CD08841D6CEE3900C5F6A6 /* PhotoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08831D6CEE3900C5F6A6 /* PhotoObject.m */; };
 		E3A4838ADCA5AC120A528BF0 /* libPods-EversnapTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E3F012AA7A21036D89D908 /* libPods-EversnapTest.a */; };
@@ -57,12 +55,8 @@
 		48CD08521D6CE1C400C5F6A6 /* WebServiceConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceConstants.m; sourceTree = "<group>"; };
 		48CD08541D6CE1C400C5F6A6 /* DTOWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTOWrapper.h; sourceTree = "<group>"; };
 		48CD08551D6CE1C400C5F6A6 /* DTOWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOWrapper.m; sourceTree = "<group>"; };
-		48CD086A1D6CE20500C5F6A6 /* TestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDTO.h; sourceTree = "<group>"; };
-		48CD086B1D6CE20500C5F6A6 /* TestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDTO.m; sourceTree = "<group>"; };
 		48CD08741D6CE21400C5F6A6 /* FlickrWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrWebService.h; sourceTree = "<group>"; };
 		48CD08751D6CE21400C5F6A6 /* FlickrWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrWebService.m; sourceTree = "<group>"; };
-		48CD08771D6CE22700C5F6A6 /* FlickrDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrDTO.h; sourceTree = "<group>"; };
-		48CD08781D6CE22700C5F6A6 /* FlickrDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrDTO.m; sourceTree = "<group>"; };
 		48CD087A1D6CE23300C5F6A6 /* FlickrResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrResponseInfo.h; sourceTree = "<group>"; };
 		48CD087B1D6CE23300C5F6A6 /* FlickrResponseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrResponseInfo.m; sourceTree = "<group>"; };
 		48CD08821D6CEE3900C5F6A6 /* PhotoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoObject.h; sourceTree = "<group>"; };
@@ -199,23 +193,11 @@
 		48CD08681D6CE20500C5F6A6 /* FlickrWebService */ = {
 			isa = PBXGroup;
 			children = (
-				48CD08691D6CE20500C5F6A6 /* DTO */,
 				48CD086C1D6CE20500C5F6A6 /* ResponseInfo */,
 				48CD08741D6CE21400C5F6A6 /* FlickrWebService.h */,
 				48CD08751D6CE21400C5F6A6 /* FlickrWebService.m */,
 			);
 			path = FlickrWebService;
-			sourceTree = "<group>";
-		};
-		48CD08691D6CE20500C5F6A6 /* DTO */ = {
-			isa = PBXGroup;
-			children = (
-				48CD086A1D6CE20500C5F6A6 /* TestDTO.h */,
-				48CD086B1D6CE20500C5F6A6 /* TestDTO.m */,
-				48CD08771D6CE22700C5F6A6 /* FlickrDTO.h */,
-				48CD08781D6CE22700C5F6A6 /* FlickrDTO.m */,
-			);
-			path = DTO;
 			sourceTree = "<group>";
 		};
 		48CD086C1D6CE20500C5F6A6 /* ResponseInfo */ = {
@@ -392,13 +374,11 @@
 				48CD08761D6CE21400C5F6A6 /* FlickrWebService.m in Sources */,
 				48184E501D6DB1820011C378 /* PhotoCollectionViewCell.m in Sources */,
 				48CD085F1D6CE1C400C5F6A6 /* BaseDTO.m in Sources */,
-				48CD08791D6CE22700C5F6A6 /* FlickrDTO.m in Sources */,
 				48184E491D6D99B80011C378 /* PhotoContainer.m in Sources */,
 				48CD08841D6CEE3900C5F6A6 /* PhotoObject.m in Sources */,
 				48CD08631D6CE1C400C5F6A6 /* WebServiceConstants.m in Sources */,
 				4850CF461D6CE06900AA8AD3 /* main.m in Sources */,
 				48184E4C1D6DA9560011C378 /* PhotoGalleryViewController.m in Sources */,
-				48CD08711D6CE20500C5F6A6 /* TestDTO.m in Sources */,
 				48CD08601D6CE1C400C5F6A6 /* BaseWebServiceModel.m in Sources */,
 				48CD08641D6CE1C400C5F6A6 /* DTOWrapper.m in Sources */,
 			);
