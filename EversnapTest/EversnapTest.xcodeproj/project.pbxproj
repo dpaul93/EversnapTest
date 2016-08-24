@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		48184E491D6D99B80011C378 /* PhotoContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48184E481D6D99B80011C378 /* PhotoContainer.m */; };
+		48184E4C1D6DA9560011C378 /* PhotoGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48184E4B1D6DA9560011C378 /* PhotoGalleryViewController.m */; };
+		48184E501D6DB1820011C378 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48184E4F1D6DB1820011C378 /* PhotoCollectionViewCell.m */; };
 		4850CF461D6CE06900AA8AD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4850CF451D6CE06900AA8AD3 /* main.m */; };
 		4850CF491D6CE06900AA8AD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4850CF481D6CE06900AA8AD3 /* AppDelegate.m */; };
 		4850CF4F1D6CE06900AA8AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4850CF4D1D6CE06900AA8AD3 /* Main.storyboard */; };
@@ -20,8 +22,6 @@
 		48CD08631D6CE1C400C5F6A6 /* WebServiceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08521D6CE1C400C5F6A6 /* WebServiceConstants.m */; };
 		48CD08641D6CE1C400C5F6A6 /* DTOWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08551D6CE1C400C5F6A6 /* DTOWrapper.m */; };
 		48CD08711D6CE20500C5F6A6 /* TestDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD086B1D6CE20500C5F6A6 /* TestDTO.m */; };
-		48CD08721D6CE20500C5F6A6 /* TestResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD086E1D6CE20500C5F6A6 /* TestResponseInfo.m */; };
-		48CD08731D6CE20500C5F6A6 /* TestWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08701D6CE20500C5F6A6 /* TestWebService.m */; };
 		48CD08761D6CE21400C5F6A6 /* FlickrWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08751D6CE21400C5F6A6 /* FlickrWebService.m */; };
 		48CD08791D6CE22700C5F6A6 /* FlickrDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08781D6CE22700C5F6A6 /* FlickrDTO.m */; };
 		48CD087C1D6CE23300C5F6A6 /* FlickrResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD087B1D6CE23300C5F6A6 /* FlickrResponseInfo.m */; };
@@ -33,6 +33,10 @@
 		323C30F672543E0D2F16FD0A /* Pods-EversnapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EversnapTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EversnapTest/Pods-EversnapTest.release.xcconfig"; sourceTree = "<group>"; };
 		48184E471D6D99B80011C378 /* PhotoContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoContainer.h; sourceTree = "<group>"; };
 		48184E481D6D99B80011C378 /* PhotoContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoContainer.m; sourceTree = "<group>"; };
+		48184E4A1D6DA9560011C378 /* PhotoGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGalleryViewController.h; sourceTree = "<group>"; };
+		48184E4B1D6DA9560011C378 /* PhotoGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGalleryViewController.m; sourceTree = "<group>"; };
+		48184E4E1D6DB1820011C378 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		48184E4F1D6DB1820011C378 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		4850CF411D6CE06900AA8AD3 /* EversnapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EversnapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4850CF451D6CE06900AA8AD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4850CF471D6CE06900AA8AD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,10 +59,6 @@
 		48CD08551D6CE1C400C5F6A6 /* DTOWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTOWrapper.m; sourceTree = "<group>"; };
 		48CD086A1D6CE20500C5F6A6 /* TestDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDTO.h; sourceTree = "<group>"; };
 		48CD086B1D6CE20500C5F6A6 /* TestDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDTO.m; sourceTree = "<group>"; };
-		48CD086D1D6CE20500C5F6A6 /* TestResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestResponseInfo.h; sourceTree = "<group>"; };
-		48CD086E1D6CE20500C5F6A6 /* TestResponseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestResponseInfo.m; sourceTree = "<group>"; };
-		48CD086F1D6CE20500C5F6A6 /* TestWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWebService.h; sourceTree = "<group>"; };
-		48CD08701D6CE20500C5F6A6 /* TestWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWebService.m; sourceTree = "<group>"; };
 		48CD08741D6CE21400C5F6A6 /* FlickrWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrWebService.h; sourceTree = "<group>"; };
 		48CD08751D6CE21400C5F6A6 /* FlickrWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrWebService.m; sourceTree = "<group>"; };
 		48CD08771D6CE22700C5F6A6 /* FlickrDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrDTO.h; sourceTree = "<group>"; };
@@ -83,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48184E4D1D6DB1680011C378 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48184E4E1D6DB1820011C378 /* PhotoCollectionViewCell.h */,
+				48184E4F1D6DB1820011C378 /* PhotoCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4850CF381D6CE06900AA8AD3 = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +116,9 @@
 				4850CF471D6CE06900AA8AD3 /* AppDelegate.h */,
 				4850CF481D6CE06900AA8AD3 /* AppDelegate.m */,
 				4850CF4D1D6CE06900AA8AD3 /* Main.storyboard */,
-				4850CF501D6CE06900AA8AD3 /* Assets.xcassets */,
 				4850CF521D6CE06900AA8AD3 /* LaunchScreen.storyboard */,
-				4850CF551D6CE06900AA8AD3 /* Info.plist */,
 				48CD087D1D6CEC8B00C5F6A6 /* Models */,
+				48184E4D1D6DB1680011C378 /* Views */,
 				48CD087E1D6CEC8B00C5F6A6 /* ViewControllers */,
 				48CD08441D6CE1C400C5F6A6 /* WebService */,
 				4850CF441D6CE06900AA8AD3 /* Supporting Files */,
@@ -121,6 +129,8 @@
 		4850CF441D6CE06900AA8AD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4850CF501D6CE06900AA8AD3 /* Assets.xcassets */,
+				4850CF551D6CE06900AA8AD3 /* Info.plist */,
 				4850CF451D6CE06900AA8AD3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -191,8 +201,6 @@
 			children = (
 				48CD08691D6CE20500C5F6A6 /* DTO */,
 				48CD086C1D6CE20500C5F6A6 /* ResponseInfo */,
-				48CD086F1D6CE20500C5F6A6 /* TestWebService.h */,
-				48CD08701D6CE20500C5F6A6 /* TestWebService.m */,
 				48CD08741D6CE21400C5F6A6 /* FlickrWebService.h */,
 				48CD08751D6CE21400C5F6A6 /* FlickrWebService.m */,
 			);
@@ -213,8 +221,6 @@
 		48CD086C1D6CE20500C5F6A6 /* ResponseInfo */ = {
 			isa = PBXGroup;
 			children = (
-				48CD086D1D6CE20500C5F6A6 /* TestResponseInfo.h */,
-				48CD086E1D6CE20500C5F6A6 /* TestResponseInfo.m */,
 				48CD087A1D6CE23300C5F6A6 /* FlickrResponseInfo.h */,
 				48CD087B1D6CE23300C5F6A6 /* FlickrResponseInfo.m */,
 			);
@@ -235,6 +241,8 @@
 		48CD087E1D6CEC8B00C5F6A6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				48184E4A1D6DA9560011C378 /* PhotoGalleryViewController.h */,
+				48184E4B1D6DA9560011C378 /* PhotoGalleryViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -382,15 +390,15 @@
 				4850CF491D6CE06900AA8AD3 /* AppDelegate.m in Sources */,
 				48CD087C1D6CE23300C5F6A6 /* FlickrResponseInfo.m in Sources */,
 				48CD08761D6CE21400C5F6A6 /* FlickrWebService.m in Sources */,
+				48184E501D6DB1820011C378 /* PhotoCollectionViewCell.m in Sources */,
 				48CD085F1D6CE1C400C5F6A6 /* BaseDTO.m in Sources */,
-				48CD08721D6CE20500C5F6A6 /* TestResponseInfo.m in Sources */,
 				48CD08791D6CE22700C5F6A6 /* FlickrDTO.m in Sources */,
 				48184E491D6D99B80011C378 /* PhotoContainer.m in Sources */,
 				48CD08841D6CEE3900C5F6A6 /* PhotoObject.m in Sources */,
 				48CD08631D6CE1C400C5F6A6 /* WebServiceConstants.m in Sources */,
 				4850CF461D6CE06900AA8AD3 /* main.m in Sources */,
+				48184E4C1D6DA9560011C378 /* PhotoGalleryViewController.m in Sources */,
 				48CD08711D6CE20500C5F6A6 /* TestDTO.m in Sources */,
-				48CD08731D6CE20500C5F6A6 /* TestWebService.m in Sources */,
 				48CD08601D6CE1C400C5F6A6 /* BaseWebServiceModel.m in Sources */,
 				48CD08641D6CE1C400C5F6A6 /* DTOWrapper.m in Sources */,
 			);
