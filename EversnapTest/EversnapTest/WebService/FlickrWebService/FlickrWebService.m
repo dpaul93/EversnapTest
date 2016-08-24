@@ -9,8 +9,6 @@
 #import "FlickrWebService.h"
 #import <UIImageView+AFNetworking.h>
 
-NSString * const kFlickrAPIKey = @"c472fb63bccdde81de67b841f1a00d70";
-
 static NSString * const kBaseURL = @"https://api.flickr.com/services/";
 
 @implementation FlickrWebService
@@ -21,9 +19,9 @@ static NSString * const kBaseURL = @"https://api.flickr.com/services/";
     return kBaseURL;
 }
 
-//-(Class)baseParseClass {
-//    return [FlickrResponseInfo class];
-//}
+-(Class)baseParseClass {
+    return [FlickrResponseInfo class];
+}
 
 #pragma mark - Image loading
 

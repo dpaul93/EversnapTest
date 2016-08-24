@@ -7,10 +7,7 @@
 //
 
 #import "WebService.h"
-#import "FlickrDTO.h"
 #import "FlickrResponseInfo.h"
-
-NSString * const kFlickrAPIKey;
 
 @interface FlickrWebService : WebService
 
