@@ -15,6 +15,9 @@
 		4850CF4F1D6CE06900AA8AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4850CF4D1D6CE06900AA8AD3 /* Main.storyboard */; };
 		4850CF511D6CE06900AA8AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4850CF501D6CE06900AA8AD3 /* Assets.xcassets */; };
 		4850CF541D6CE06900AA8AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4850CF521D6CE06900AA8AD3 /* LaunchScreen.storyboard */; };
+		48C9D3681D6E059500F2EF36 /* LoadMoreCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C9D3671D6E059500F2EF36 /* LoadMoreCollectionReusableView.m */; };
+		48C9D36B1D6E1A9100F2EF36 /* PhotoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C9D36A1D6E1A9100F2EF36 /* PhotoDetailsViewController.m */; };
+		48C9D36E1D6E1B5100F2EF36 /* PhotoDetailsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C9D36D1D6E1B5100F2EF36 /* PhotoDetailsCollectionViewCell.m */; };
 		48CD085F1D6CE1C400C5F6A6 /* BaseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD08481D6CE1C400C5F6A6 /* BaseDTO.m */; };
 		48CD08601D6CE1C400C5F6A6 /* BaseWebServiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD084B1D6CE1C400C5F6A6 /* BaseWebServiceModel.m */; };
 		48CD08611D6CE1C400C5F6A6 /* BaseResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CD084E1D6CE1C400C5F6A6 /* BaseResponseInfo.m */; };
@@ -43,6 +46,12 @@
 		4850CF501D6CE06900AA8AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4850CF531D6CE06900AA8AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4850CF551D6CE06900AA8AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C9D3661D6E059500F2EF36 /* LoadMoreCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreCollectionReusableView.h; sourceTree = "<group>"; };
+		48C9D3671D6E059500F2EF36 /* LoadMoreCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreCollectionReusableView.m; sourceTree = "<group>"; };
+		48C9D3691D6E1A9100F2EF36 /* PhotoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailsViewController.h; sourceTree = "<group>"; };
+		48C9D36A1D6E1A9100F2EF36 /* PhotoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailsViewController.m; sourceTree = "<group>"; };
+		48C9D36C1D6E1B5100F2EF36 /* PhotoDetailsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailsCollectionViewCell.h; sourceTree = "<group>"; };
+		48C9D36D1D6E1B5100F2EF36 /* PhotoDetailsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailsCollectionViewCell.m; sourceTree = "<group>"; };
 		48CD08471D6CE1C400C5F6A6 /* BaseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDTO.h; sourceTree = "<group>"; };
 		48CD08481D6CE1C400C5F6A6 /* BaseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDTO.m; sourceTree = "<group>"; };
 		48CD084A1D6CE1C400C5F6A6 /* BaseWebServiceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebServiceModel.h; sourceTree = "<group>"; };
@@ -82,6 +91,10 @@
 			children = (
 				48184E4E1D6DB1820011C378 /* PhotoCollectionViewCell.h */,
 				48184E4F1D6DB1820011C378 /* PhotoCollectionViewCell.m */,
+				48C9D3661D6E059500F2EF36 /* LoadMoreCollectionReusableView.h */,
+				48C9D3671D6E059500F2EF36 /* LoadMoreCollectionReusableView.m */,
+				48C9D36C1D6E1B5100F2EF36 /* PhotoDetailsCollectionViewCell.h */,
+				48C9D36D1D6E1B5100F2EF36 /* PhotoDetailsCollectionViewCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +238,8 @@
 			children = (
 				48184E4A1D6DA9560011C378 /* PhotoGalleryViewController.h */,
 				48184E4B1D6DA9560011C378 /* PhotoGalleryViewController.m */,
+				48C9D3691D6E1A9100F2EF36 /* PhotoDetailsViewController.h */,
+				48C9D36A1D6E1A9100F2EF36 /* PhotoDetailsViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -367,13 +382,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C9D3681D6E059500F2EF36 /* LoadMoreCollectionReusableView.m in Sources */,
 				48CD08621D6CE1C400C5F6A6 /* WebService.m in Sources */,
 				48CD08611D6CE1C400C5F6A6 /* BaseResponseInfo.m in Sources */,
 				4850CF491D6CE06900AA8AD3 /* AppDelegate.m in Sources */,
 				48CD087C1D6CE23300C5F6A6 /* FlickrResponseInfo.m in Sources */,
 				48CD08761D6CE21400C5F6A6 /* FlickrWebService.m in Sources */,
+				48C9D36B1D6E1A9100F2EF36 /* PhotoDetailsViewController.m in Sources */,
 				48184E501D6DB1820011C378 /* PhotoCollectionViewCell.m in Sources */,
 				48CD085F1D6CE1C400C5F6A6 /* BaseDTO.m in Sources */,
+				48C9D36E1D6E1B5100F2EF36 /* PhotoDetailsCollectionViewCell.m in Sources */,
 				48184E491D6D99B80011C378 /* PhotoContainer.m in Sources */,
 				48CD08841D6CEE3900C5F6A6 /* PhotoObject.m in Sources */,
 				48CD08631D6CE1C400C5F6A6 /* WebServiceConstants.m in Sources */,
