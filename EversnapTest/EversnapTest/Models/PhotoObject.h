@@ -21,8 +21,8 @@
 @property (assign, nonatomic) BOOL photoIsFriend;
 @property (assign, nonatomic) BOOL photoIsFamily;
 
-@property (strong, nonatomic) NSString *photoURLSmall;
-@property (strong, nonatomic) NSString *photoURLMedium;
-@property (strong, nonatomic) NSString *photoURLLarge;
+@property (strong, nonatomic, readonly) NSString *photoURLSmall;
+@property (strong, nonatomic, readonly) NSString *photoURLMedium;
+@property (strong, nonatomic, readonly) NSString *photoURLLarge;
 
 @end
