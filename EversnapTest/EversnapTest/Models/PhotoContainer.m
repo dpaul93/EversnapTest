@@ -24,7 +24,7 @@
             self.pages = [isNULL(data[@"pages"]) integerValue];
             self.perPage = [isNULL(data[@"perpage"]) integerValue];
             self.total = [isNULL(data[@"total"]) integerValue];
-            NSArray *photos = isNULL(data[@"photos"]);
+            NSArray *photos = isNULL(data[@"photo"]);
             NSMutableArray *temp = [NSMutableArray new];
             for (NSDictionary *photo in photos) {
                 PhotoObject *model = [[PhotoObject alloc] initWithJSON:photo];
@@ -35,6 +35,15 @@
     }
     
     return self;
+}
+
+-(void)updateWithPhotoContainer:(PhotoContainer*)container {
+    self.page = container.page;
+    self.pages = container.pages;
+    self.perPage = container.perPage;
+    self.total = container.total;
+
+    self.photos = [self.photos arrayByAddingObjectsFromArray:container.photos];
 }
 
 @end

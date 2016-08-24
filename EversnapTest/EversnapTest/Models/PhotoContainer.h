@@ -20,4 +20,6 @@
 
 @property (strong, nonatomic) NSArray<PhotoObject*> *photos;
 
+-(void)updateWithPhotoContainer:(PhotoContainer*)container;
+
 @end
