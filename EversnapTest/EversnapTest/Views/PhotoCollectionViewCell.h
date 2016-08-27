@@ -10,4 +10,7 @@
 
 @interface PhotoCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic, readonly) UIImageView *photoImageView;
+@property (weak, nonatomic, readonly) UIActivityIndicatorView *activityIndicator;
+
 @end
