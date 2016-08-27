@@ -10,8 +10,6 @@
 #import "PhotoObject.h"
 #import "WebServiceConstants.h"
 
-//page": 2, "pages": "2305", "perpage": 100, "total": "230401",
-
 @implementation PhotoContainer
 
 #pragma mark - Initialization
